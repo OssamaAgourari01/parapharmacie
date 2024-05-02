@@ -1,0 +1,41 @@
+.img-card{
+    width: 200px;
+}
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+.individual{
+    width: 30%;
+    margin: 10px;
+}
+.individual img{
+    width: auto;
+}
+.card {
+    overflow: hidden; 
+  }
+.card-img-top {
+    transition: transform 0.2s; 
+    overflow: hidden;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  .pricing{
+    background-color: #1b946e;
+    text-align: center;
+    padding-block: 5px;
+    color: aliceblue;
+  }
+.item{
+  position: relative;
+}
+.item h4{
+  position: absolute;
+  z-index: 1000;
+}
+.item img{
+}

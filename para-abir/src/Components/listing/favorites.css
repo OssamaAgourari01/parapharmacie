@@ -1,0 +1,10 @@
+.container{
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+.fav-icon{
+    font-size: 90px;
+}
+.fav-none{
+    margin-bottom: 20px;
+}
